@@ -2,6 +2,10 @@ body {
     background-color: #CADCFC;
 }
 
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .navbar {
     display: flex;
     justify-content: flex-start;
@@ -37,7 +41,6 @@ body {
     color: #00246B;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .intro-div {
@@ -56,7 +59,7 @@ body {
 }
 
 .intro-text {
-    font-size: 40px;
+    font-size: 48px;
     margin: 0px;
     text-align: center;
 }
@@ -71,6 +74,7 @@ body {
     border-radius: 8px;
     display: flex;
     justify-content: center;
+    font-size: 16px;
 }
 
 .intro-learn-more:hover {
