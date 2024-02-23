@@ -85,3 +85,53 @@ p {
 .intro-image {
     border-radius: 8px;
 }
+
+.trials-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trials-title {
+    background-color: red;
+}
+
+.trials-title-text {
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+
+.trials {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.trials p {
+    margin: 0;
+}
+
+.trial {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.trial-name {
+    font-size: 24px;
+}
+
+.trial-desc {
+    font-size: 20px;
+}
+
+.trial-sign-up {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #deeaff;
+}
+
+.trial-sign-up:hover {
+    background-color: #deeaffa9;
+}
