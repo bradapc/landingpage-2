@@ -71,6 +71,7 @@ p {
 .intro-text {
     font-size: 48px;
     margin: 0px;
+    color: #00246B;
 }
 
 .intro-image {
@@ -91,6 +92,7 @@ p {
 
 .intro-learn-more:hover {
     background-color: #8eb5f9be;
+    cursor: pointer;
 }
 
 #intro-learn-more-wrap {
@@ -106,10 +108,12 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
 
 .trials-title {
-    background-color: red;
+    display: flex;
+    flex-direction: flex-start;
 }
 
 .trials-title-text {
@@ -131,14 +135,21 @@ p {
     display: flex;
     gap: 30px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .trial-name {
     font-size: 24px;
+    color: #00246B;
 }
 
 .trial-desc {
     font-size: 20px;
+}
+
+.trial-info {
+    display: flex;
+    flex-direction: column;
 }
 
 .trial-sign-up {
@@ -146,8 +157,10 @@ p {
     padding: 10px;
     border-radius: 4px;
     background-color: #deeaff;
+    transition-duration: 0.2s;
 }
 
 .trial-sign-up:hover {
     background-color: #deeaffa9;
+    cursor: pointer;
 }
