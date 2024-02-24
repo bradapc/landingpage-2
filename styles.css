@@ -258,3 +258,41 @@ p {
     margin: 0;
     font-size: 20px;
 }
+
+.cwrap {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    background-color: #abc7f8;
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.contact-us-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us p {
+    margin: 0;
+    font-size: 24px;
+}
+
+.contact-us-signup {
+    background-color: #deeaff;
+    width: 140px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.contact-us-signup:hover {
+    background-color: #deeaffa9;
+}
