@@ -218,3 +218,43 @@ p {
     border-radius: 8px;
     padding: 10px;
 }
+
+.participate-div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.reason img {
+    width: 70px;
+    height: 70px;
+}
+
+.reasons-wrapper {
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 616px;
+}
+
+.reason {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 180px;
+    text-align: center;
+}
+
+.why-participate p {
+    font-size: 42px;
+    color: #00246B;
+}
+
+.reason p {
+    margin: 0;
+    font-size: 20px;
+}
