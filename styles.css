@@ -40,6 +40,7 @@ p {
 
 .navitem:hover {
     background-color: #a7c7fd;
+    cursor: pointer;
 }
 
 .navtext {
@@ -163,4 +164,57 @@ p {
 .trial-sign-up:hover {
     background-color: #deeaffa9;
     cursor: pointer;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.about-title-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-title-div p {
+    margin: 0;
+}
+
+.about-title-text {
+    font-size: 30px;
+}
+
+.about-title-desc {
+    font-size: 26px;
+}
+
+.staff-wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.staff-div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+}
+
+.staff-img {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #00246B;
+    border-radius: 4px;
+}
+
+.staff-desc-div p {
+    font-size: 20px;
+    background-color: #8eb5f97e;
+    border-radius: 8px;
+    padding: 10px;
 }
