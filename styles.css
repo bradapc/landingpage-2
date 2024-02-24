@@ -31,6 +31,7 @@ p {
     justify-content: flex-start;
     height: 30px;
     align-items: center;
+    transition-duration: 0.2s;
 }
 
 .navitem:hover {
@@ -58,10 +59,14 @@ p {
     flex-direction: column;
 }
 
+.intro-desc {
+    font-size: 20px;
+    margin: 0;
+}
+
 .intro-text {
     font-size: 48px;
     margin: 0px;
-    text-align: center;
 }
 
 .intro-image {
@@ -70,16 +75,23 @@ p {
 }
 
 .intro-learn-more {
-    background-color: rgb(62, 208, 62);
+    background-color: #8eb5f9;
     border-radius: 8px;
     display: flex;
     justify-content: center;
     font-size: 16px;
+    font-weight: bold;
+    width: 50%;
+    transition-duration: 0.2s;
 }
 
 .intro-learn-more:hover {
-    color: white;
-    background-color: rgba(62, 208, 62, 0.73);
+    background-color: #8eb5f9be;
+}
+
+#intro-learn-more-wrap {
+    display: flex;
+    justify-content: center;
 }
 
 .intro-image {
